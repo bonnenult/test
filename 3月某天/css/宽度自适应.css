@@ -1,0 +1,245 @@
+*{margin: 0 auto;
+padding: 0;}
+#header{
+	height: 403px;
+	background-image: url(../images/shu.jpg);
+	background-repeat: repeat-x;
+}
+.header-inner{
+	width: 930px;
+	height: 403px;
+	/*background-color: red;*/
+}
+.top{
+	width: 930px;
+	height: 19px;
+	background-color: #3d3d3d;
+}
+.logonav{width: 930px;
+height: 114px;
+/*background-color: #fff;
+*/}
+.logonav .logo{
+	width: 262px;
+	height: 113px;
+	/*background-color: red;*/
+	float: left;
+	font-size: 34px;
+	line-height: 113px;
+	padding-left: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.logonav .nav{
+	width: 452px;
+	height: 113px;
+	/*background-color: green;*/
+	float: left;
+	margin-left: 199px;
+	list-style: none;
+	line-height: 113px;
+}
+.nav .big{
+	height: 33px;
+	padding-bottom: 40px;
+	width: 100px;
+	margin-left: 5px;
+	border-bottom: 1px solid red 
+}
+.nav li{
+	display: block;
+	float: left;
+	margin-left:48px;
+	font-size: 14px;
+	font-family: "Times New Roman", Times, serif;
+}
+.banner{
+	width: 930px;
+	height: 270px;
+	/*background-color: #fff;*/
+}
+.banner_left{
+	width: 494px;
+	height: 270px;
+	float: left;
+	/*background-color: red;*/
+}
+.banner_left .we{
+	width: 313px;
+	height: 87px;
+/*	background-color: green;*/
+	float: left;
+	line-height: 87px;
+	padding-left: 12px;
+	color: #e3f3cc;
+	font-size: 24px;
+}
+.we span{
+	padding-bottom: 6px;
+	border-bottom: 1px dotted  #e3f3cc;
+}
+.banner_left .lo{
+	width: 494px;
+	height: 89px;
+	/*background-color: blue;*/
+	float: left;
+font-size: 14px;
+padding-top: 10px;
+font-family: "Times New Roman", Times, serif;
+}
+.bo{margin-top: 41px;
+	width: 494px;
+	height: 42px;
+	/*background-color: yellow;*/
+	float: left;
+	/*background-color: green;*/
+}
+.bo .apple{width: 60px;
+height: 45px;
+margin-left: 14px;
+background-image: url(../images/1.png);
+background-position: left;
+background-repeat: no-repeat;
+font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+padding-left: 32px;
+line-height: 45px;
+color: #fff;
+float: left;
+}
+.bo .app{width: 143px;
+height:45px;
+margin-left: 14px;
+background-image: url(../images/2.png);
+background-position: left;
+background-repeat: no-repeat;
+font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+padding-left: 32px;
+line-height: 45px;
+color: #fff;
+float: left;	
+}
+.bo .ap{width: 135px;
+height: 45px;
+margin-left: 14px;
+background-image: url(../images/3.png);
+background-position: left;
+background-repeat: no-repeat;
+font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+padding-left: 32px;
+line-height: 45px;
+color: #fff;
+float: left;
+}
+.banner_right{
+width: 436px;
+height: 270px;
+/*background-color: red;*/
+float: left;
+}
+.banner_right img{
+	position: relative;
+	left: 33px;
+	top: -16px;
+}
+.main-inner{
+	width: 930px;
+	height: 307px;
+	/*background-color: red;*/
+	border-bottom: 1px solid #ececec;
+
+}
+.main_left{
+	width: 320px;
+	height: 307px;
+	/*background-color: green;*/
+	float: left;
+}
+.main_left .q{
+list-style: none;
+margin-left: 14px;
+}
+ .big{
+	width: 277px;
+	padding-top: 36px;
+	font-size: 16px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	border-bottom: 1px solid #ececec;
+
+}
+.small{width: 277px;
+	padding-top: 20px;
+	font-size: 13px;
+	font-family: "Times New Roman", Times, serif;
+color: #695755;
+line-height:20px;
+}
+.main_mid .w{width: 277px;
+	list-style: none;
+}
+.main_mid{width: 317px;
+height: 307px;
+/*background-color: green;*/
+float: left;
+}
+.main_right{
+	width: 293px;
+	height:307px;
+	float: left;
+	/*background-color: red;*/
+}
+.main_right .e{
+list-style: none;
+} 
+.bgc{font-family: "Times New Roman", Times, serif;
+	width: 277px;
+	height: 78px;
+	background-color: #f4f4f4;
+	margin-left: 0;
+	margin-top: 28px;
+	font-size: 13px;
+	line-height:25px;
+	padding-left: 10px;
+}
+.bgc span{font-size: 13px;
+	color: #713723
+}
+.footer-inner{
+	width: 930px;
+	height: 75px;
+	/*background-color: red;*/
+}
+.footer_left{
+	padding-left: 16px;
+	font-size: 12px;
+	width: 308px;
+	height: 53px;
+	float: left;
+	/*background-color: green;*/
+	line-height: 53px;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer_left span{
+	color: #cecece;
+	border-bottom: 1px solid  #cecece;
+}
+.footer_right{
+	padding-left: 70px;
+	width: 260px;
+	height: 53px;
+	/*background-color: yellow;*/
+	float: left;
+	margin-left:252px;
+	line-height: 53px;
+	font-size: 12px;
+	font-family: "Times New Roman", Times, serif;
+}
+.footer_right a{
+	color: #cecece;
+}
+.footer_right img{
+	position: relative;
+	top: 14px;
+	left: 30px;
+}
